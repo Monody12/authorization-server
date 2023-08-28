@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b78c9a9-76d2-43ed-852a-f774d1d2863f" name="Changes" comment="project init">
-      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/org/example/authorization/discovery/DiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/model/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/model/PermissionDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/model/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/service/SpringDataUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/common/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/config/ZuulConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/common/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/AuthorizationServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/TokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/AuthorizationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/TokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order/model/UserDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +36,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2USYmZWPZKrUIS6qsgjY6TxeudM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -76,8 +56,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/monody/IdeaProjects/authorization-server/gateway/src/main/java/org/example/authorization/gateway/config",
+    "last_opened_file_path": "/Users/user/IdeaProjects/authorization-server/order/src/main/java/org/example/authorization/order",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,15 +70,20 @@
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "0b8eb9b6c561546ee4c215ec708fb471",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order" />
+      <recent name="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway" />
       <recent name="$PROJECT_DIR$/gateway/src/main/java/org/example/authorization/gateway/config" />
       <recent name="$PROJECT_DIR$/discovery/src/main/resources" />
       <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
-      <recent name="$PROJECT_DIR$/order/src/main/java/org/example/authorization/order" />
-      <recent name="$PROJECT_DIR$/uaa/src/main/java/org/example/authorization/uaa" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.authorization.gateway.config" />
@@ -175,6 +161,7 @@
       <updated>1692934610074</updated>
       <workItem from="1692934611966" duration="7823000" />
       <workItem from="1693182981375" duration="18172000" />
+      <workItem from="1693217177897" duration="4755000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1692951767437</created>

@@ -1,6 +1,5 @@
 package org.example.authorization.order.controller;
 
-import org.example.authorization.order.model.UserDTO;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
